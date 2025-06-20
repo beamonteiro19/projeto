@@ -1,5 +1,6 @@
 import React, { useState, useMemo, useCallback, useEffect } from 'react';
-import { leadService, Lead } from '../services/leadService';
+import type { Lead } from '../services/leadService';
+import { leadService } from '../services/leadService';
 import { taskService } from '../services/taskService';
 
 interface LeadWithTasks extends Lead {
