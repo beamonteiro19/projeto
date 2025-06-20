@@ -1,5 +1,4 @@
 import React, { useMemo, useState, useCallback, useEffect } from 'react';
-
 import { clientService } from '../services/clientService';
 import type { Client } from '../services/clientService';
 
