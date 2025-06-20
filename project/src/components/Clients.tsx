@@ -1,5 +1,8 @@
 import React, { useMemo, useState, useCallback, useEffect } from 'react';
-import { clientService, Client } from '../services/clientService';
+
+import { clientService } from '../services/clientService';
+import type { Client } from '../services/clientService';
+
 
 interface ClientsProps {
   searchQuery: string;
